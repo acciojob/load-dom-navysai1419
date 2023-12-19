@@ -9,19 +9,14 @@
 <body>
 	<script>
         // Function to be executed when DOM is loaded
+       <script>
         function onDomLoad() {
-            // Create a new text node with the message
             var textNode = document.createTextNode("DOM load success");
-
-            // Create a new paragraph element
             var paragraph = document.createElement("p");
-
-            // Append the text node to the paragraph element
             paragraph.appendChild(textNode);
-
-            // Append the paragraph to the body
             document.body.appendChild(paragraph);
         }
+
         document.addEventListener("DOMContentLoaded", onDomLoad);
     </script>
 	<!-- the entire body must be written by student -->
